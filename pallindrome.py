@@ -6,10 +6,13 @@ def pallindrome(x):
 		r=x%10
 		y=x
 		i=0
+		
 		while(y>10):
+		#get the first digit and also determine the number of digits in the number
 			i += 1
 			y /= 10
 		if(y == r):
+			#if frist and last digits are same , retrive z, the number without the first & last digit
 			z = x - y*pow(10,i)
 			z /=  10
 			#print "y =", y,"r=",r,"z=",z			
