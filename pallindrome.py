@@ -22,3 +22,6 @@ def pallindrome(x):
 
 print "1234 is a pallindrome ?", pallindrome(1234)
 print "12321 is a pallindrome ?", pallindrome(12321)
+print "4 is a pallindrome ?", pallindrome(4)
+print "123321 is a pallindrome ?", pallindrome(123321)
+print "223321 is a pallindrome ?", pallindrome(223321)
