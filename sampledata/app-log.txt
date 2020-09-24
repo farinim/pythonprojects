@@ -1,0 +1,18 @@
+This is a log4j xml log output sample.
+Any line that begins with a date timestamp can be considered a a single line.
+Line starting with any other format should be considered as a continuation of previous log line.
+You may ignore such line which do not match the pattern.
+23-Sep-2020: 15:39 INFO Demo: starting demo
+23-Sep-2020: 15:39 INFO Demo: execute step 1 of the demo; output:none
+23-Sep-2020: 15:39 INFO Demo: execute step 2 of the demo; output: stage 1 sucessful proceeding with stage 2
+23-Sep-2020: 15:39 INFO DemoRest: begin intitialization
+23-Sep-2020: 15:39 INFO DemoController: intitialization sucessful
+23-Sep-2020: 15:39 INFO DemoController: stop controller
+23-Sep-2020: 15:39 INFO DemoController: leave controller
+23-Sep-2020: 15:39 INFO DemoRest: gather information
+23-Sep-2020: 15:39 INFO DemoRest: return results
+23-Sep-2020: 15:39 INFO Demo: goodbye
+23-Sep-2020: 15:39 INFO Demo: starting demo
+23-Sep-2020: 15:39 INFO Demo: demo executed before, not re-running
+23-Sep-2020: 15:39 INFO DemoRest: return results
+23-Sep-2020: 15:39 INFO Demo: goodbye
