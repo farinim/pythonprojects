@@ -1,0 +1,23 @@
+https://www.geeksforgeeks.org/minimum-cost-path-in-a-matrix-by-moving-only-on-value-difference-of-x/#:~:text=Minimum%20cost%20path%20in%20a%20Matrix%20by%20moving,the%20minimum%20number%20of%20operations%20required%20to%20reach
+
+Given a matrix mat[][] and an integer X, the task is to find the minimum number of operations required to reach 
+(N, M)  from (1, 1) . In each move, we can move either right or down in the matrix, but to move on the next cell in the matrix the value
+ of the cell must be mat[i][j] + X . In one operation the value at any cell can be decremented by 1.
+
+Examples: 
+Input: mat[][] = {{8, 10, 14}, {5, 41, 19}, {10, 2, 25}}, X = 3 
+Output: 11 
+Explanation: 
+After performing the operations on the matrix: 
+7 10 13 
+5 41 16 
+10 2 19
+Here the minimum required operation is 11. 
+8 => 7 = 1 
+14 => 13 = 1 
+19 => 16 = 3 
+25 => 19 = 6
+Path: 7 => 10 => 13 => 16 => 19
+
+Input: mat[][] = {{15, 153}, {135, 17}}, X = 3 
+Output: 121 
